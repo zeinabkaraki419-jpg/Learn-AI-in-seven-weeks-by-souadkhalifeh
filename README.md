@@ -15,5 +15,24 @@ my_goal, months_left = "AI Expert", 3
 
 # Printing using advanced formatting
 print(f"My goal is to become an {my_goal} in {months_left} months!")
+### ✅ Day 2: Python Conditions## ✅ Week 1 - Day 2: Python Conditions
+
+### What I Learned Today:
+- Making decisions in Python using `if`, `elif`, and `else`.
+- The importance of indentation for block structure and logic.
+- Combining conditions using logical operators or chained comparisons.
+- Getting user input using `input()` and casting it to an integer using `int()`.
+
+### Code Practice:
+```python
+age = int(input("What's your age? "))
+
+if age < 18:
+    print("You are a minor.")
+elif 18 <= age <= 64:
+    print("You are an adult.")
+else:
+    print("You are a senior.")
+
 
 
