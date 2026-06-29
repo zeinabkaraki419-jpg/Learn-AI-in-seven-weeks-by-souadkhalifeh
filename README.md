@@ -16,6 +16,7 @@ my_goal, months_left = "AI Expert", 3
 # Printing using advanced formatting
 print(f"My goal is to become an {my_goal} in {months_left} months!")
 
+
 ### ✅ Week 1 - Day 2: Python Conditions
 
 ### What I Learned Today:
