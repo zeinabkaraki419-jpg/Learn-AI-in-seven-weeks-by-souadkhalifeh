@@ -60,4 +60,20 @@ for number in range(1, 11):
     else:
         print("")
 
+### 🔹 Day 3: Loops in Python (for & while)
+
+Today, I mastered how to automate repetitive tasks using Loops in Python. I learned how to let the computer do the heavy lifting using just a few lines of code.
+
+#### 💡 Key Concepts Learned:
+- **`for` Loop:** Used when the number of iterations is known in advance (e.g., using `range()`).
+- **`while` Loop:** Used to repeat code as long as a specific condition remains `True`.
+- **Indentation:** Remembering that the code block inside the loop must be indented.
+
+#### 🛠️ Code Practice:
+```python
+# Example of a for loop printing numbers from 1 to 5
+for i in range(1, 6):
+    print(f"Iteration number: {i}")
+
+
 
