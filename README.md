@@ -78,18 +78,20 @@ Today, I mastered how to automate repetitive tasks using Loops in Python. I lear
 for i in range(1, 6):
     print(f"Iteration number: {i}")
 
-## 📅 Day 4: Functions (الدوال)
+### 🔹 Day 4: Functions (الدوال)
+- **Concept:** Learning how to bundle pieces of code into reusable blocks using functions (`def`).
+- **Key Takeaways:** - Functions help avoid code repetition (DRY Principle).
+  - Understanding inputs (`parameters`) and outputs (`return`).
 
-Today I learned how to create reusable blocks of code called **Functions** using the `def` keyword, how to pass parameters, and how to use `return` to get results.
-
-### 💻 Practical Challenge:
-An AI program to calculate the average of two grades.
-
+#### 💻 Code Challenge (Day 4):
 ```python
 def calculate_average(grade1, grade2):
-    return (grade1 + grade2) / 2
+    # حساب المعدل وإرجاع القيمة
+    average = (grade1 + grade2) / 2
+    return average
 
-result = calculate_average(15, 30)
-print("The average is:", result)
+# تجربة الدالة وطباعة النتيجة
+final_result = calculate_average(85, 95)
+print(f"The calculated average is: {final_result}")
 
 
