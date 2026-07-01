@@ -42,5 +42,22 @@ Welcome to my repository where I document my daily progress in mastering Python 
 
 ---
 
+### 🔹 Day 3: Loops in Python (for & while)
+
+Today, I mastered how to automate repetitive tasks using Loops in Python. I learned how to let the computer do the heavy lifting using just a few lines of code.
+
+#### 💡 Key Concepts Learned:
+- **`for` Loop:** Used when the number of iterations is known in advance (e.g., using `range()`).
+- **`while` Loop:** Used to repeat code as long as a specific condition remains `True`.
+- **`if-else` inside Loops:** Combined conditional logic with loops to handle even numbers and print empty lines for odd numbers.
+
+#### 🛠️ Code Practice:
+```python
+# A program that loops from 1 to 10, prints even numbers, and leaves a blank line for odd numbers
+for number in range(1, 11):
+    if number % 2 == 0:
+        print(f"number is even {number}")
+    else:
+        print("")
 
 
