@@ -96,3 +96,79 @@ print(f"The calculated average is: {final_result}")
 ```
 
 ---
+
+## 🗂️ Week 1 - Day 5: Solving Programming Challenges
+
+Today, I applied the core programming concepts I learned throughout this week (Variables, Conditions, and Loops) by solving two practical Python challenges:
+
+### 1️⃣ Challenge 1: Simple Calculator
+An interactive program that asks the user to input two numbers and choose a mathematical operation. It processes the data using conditions and includes edge-case handling to prevent division by zero.
+
+**Concepts Used:**
+- User input handling with `input()`.
+- Data type conversion using `float()`.
+- Conditional logic with `if`, `elif`, and `else`.
+
+---
+
+### 2️⃣ Challenge 2: Filtering Even Numbers
+A loop script that iterates through numbers from 1 to 50 and filters out only the even numbers.
+
+**Concepts Used:**
+- Loops using `for loop` and the `range()` function.
+- Checking divisibility using the Modulo operator `%`.
+
+---
+
+# ==========================================
+# Challenge 1: Simple Calculator
+# ==========================================
+
+print("--- Challenge 1: Simple Calculator ---")
+
+# Request two numbers from the user and convert them to float to allow decimals
+num1 = float(input("Please enter the first number: "))
+num2 = float(input("Please enter the second number: "))
+
+# Request the mathematical operation
+operation = input("Choose an operation (+, -, *, /): ")
+
+# Conditional statements to execute the chosen operation
+if operation == "+":
+    result = num1 + num2
+    print(f"Result: {num1} + {num2} = {result}")
+elif operation == "-":
+    result = num1 - num2
+    print(f"Result: {num1} - {num2} = {result}")
+elif operation == "*":
+    result = num1 * num2
+    print(f"Result: {num1} * {num2} = {result}")
+elif operation == "/":
+    # Smart validation to prevent division by zero
+    if num2 != 0:
+        result = num1 / num2
+        print(f"Result: {num1} / {num2} = {result}")
+    else:
+        print("Error: Division by zero is not allowed!")
+else:
+    print("Invalid operation symbol! Please enter one of (+, -, *, /)")
+
+
+# ==========================================
+# Challenge 2: Filtering Even Numbers
+# ==========================================
+
+print("\n--- Challenge 2: Filtering Even Numbers from 1 to 50 ---")
+
+# A loop iterating through numbers from 1 to 50
+for number in range(1, 51):
+    # Check if the number is even (remainder of division by 2 is zero)
+    if number % 2 == 0:
+        print(number)
+
+
+
+
+```
+
+---
