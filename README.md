@@ -59,6 +59,8 @@ for number in range(1, 11):
         print(f"number is even {number}")
     else:
         print("")
+    ```
+
 ---
 
 ### 🔹 Day 3: Loops in Python (for & while)
