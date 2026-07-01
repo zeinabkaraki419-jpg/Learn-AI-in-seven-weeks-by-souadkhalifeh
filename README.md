@@ -166,9 +166,55 @@ for number in range(1, 51):
     if number % 2 == 0:
         print(number)
 
+```
 
+---
+## 🎓 Day 5: Weekly Project - Student Grade System
 
+### 📝 Project Description
+A comprehensive Python script that captures a student's name and grades across three subjects. It utilizes a custom function to calculate the average score and applies conditional logic to determine if the student passed or failed.
 
+### 💻 Code Implementation
+```python
+student_name = input("enter your name please ")
+math_grade = int(input("enter your Math grade: "))
+physics_grade = int(input("enter your Physics grade: "))
+history_grade = int(input("enter your History grade: "))
+
+def calculate_average(grade1, grade2, grade3):
+    average = (grade1 + grade2 + grade3) / 3
+    return average
+
+final_result = calculate_average(math_grade, physics_grade, history_grade)
+print(f"The calculated average is: {final_result:.2f}")
+
+if final_result >= 50:
+     print(f"Congratulations {student_name}! Your result: Pass 🎉")
+else:
+   print(f"I am sorry {student_name}, you failed. Your result: Fail ❌")
+## 🎓 Day 5: Weekly Project - Student Grade System
+
+### 📝 Project Description
+A comprehensive Python script that captures a student's name and grades across three subjects. It utilizes a custom function to calculate the average score and applies conditional logic to determine if the student passed or failed.
+
+### 💻 Code Implementation
+```python
+student_name = input("enter your name please ")
+math_grade = int(input("enter your Math grade: "))
+physics_grade = int(input("enter your Physics grade: "))
+history_grade = int(input("enter your History grade: "))
+
+def calculate_average(grade1, grade2, grade3):
+    average = (grade1 + grade2 + grade3) / 3
+    return average
+
+final_result = calculate_average(math_grade, physics_grade, history_grade)
+print(f"The calculated average is: {final_result:.2f}")
+
+if final_result >= 50:
+     print(f"Congratulations {student_name}! Your result: Pass 🎉")
+else:
+   print(f"I am sorry {student_name}, you failed. Your result: Fail ❌")
 ```
 
 ---
