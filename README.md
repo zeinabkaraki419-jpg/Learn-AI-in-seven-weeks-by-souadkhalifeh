@@ -77,6 +77,9 @@ Today, I mastered how to automate repetitive tasks using Loops in Python. I lear
 # Example of a for loop printing numbers from 1 to 5
 for i in range(1, 6):
     print(f"Iteration number: {i}")
+  ```
+
+---
 
 ### 🔹 Day 4: Functions (الدوال)
 - **Concept:** Learning how to bundle pieces of code into reusable blocks using functions (`def`).
@@ -86,12 +89,10 @@ for i in range(1, 6):
 #### 💻 Code Challenge (Day 4):
 ```python
 def calculate_average(grade1, grade2):
-    # حساب المعدل وإرجاع القيمة
     average = (grade1 + grade2) / 2
     return average
-
-# تجربة الدالة وطباعة النتيجة
 final_result = calculate_average(85, 95)
 print(f"The calculated average is: {final_result}")
+```
 
-
+---
