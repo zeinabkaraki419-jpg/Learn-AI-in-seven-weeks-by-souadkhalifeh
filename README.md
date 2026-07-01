@@ -81,7 +81,7 @@ for i in range(1, 6):
 
 ---
 
-### 🔹 Day 4: Functions (الدوال)
+### 🔹 Day 4: Functions 
 - **Concept:** Learning how to bundle pieces of code into reusable blocks using functions (`def`).
 - **Key Takeaways:** - Functions help avoid code repetition (DRY Principle).
   - Understanding inputs (`parameters`) and outputs (`return`).
